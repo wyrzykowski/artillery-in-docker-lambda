@@ -14,11 +14,11 @@ run Artillery test in docker container:
 ## deploy CDK stack
  * windows: \
 `set CDK_DEFAULT_ACCOUNT={account_id} && set CDK_DEFAULT_REGION={region} && cdk deploy`
-* linux \
+* linux: \
 `CDK_DEFAULT_ACCOUNT={account_id} CDK_DEFAULT_REGION={region} cdk deploy`
 
 ### examples:
  * windows: \
 `set CDK_DEFAULT_ACCOUNT=123456789 && set CDK_DEFAULT_REGION=us-east-1 && cdk deploy`
-* linux \
+* linux: \
 `CDK_DEFAULT_ACCOUNT=123456789 CDK_DEFAULT_REGION=us-east-1 cdk deploy`
