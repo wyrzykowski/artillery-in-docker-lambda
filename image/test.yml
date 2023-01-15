@@ -1,8 +1,11 @@
 config:
   target: http://asciiart.artillery.io:8080
+  http:
+      pool: 100 # HTTP requests from all virtual users will be sent over the same ten connections.
   phases:
     - duration: 60
-      arrivalRate: 100
+      arrivalRate: 1000
+
 scenarios:
   - flow:
         - get:
